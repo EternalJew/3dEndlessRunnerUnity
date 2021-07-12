@@ -39,6 +39,7 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\SwipeController.cs" />
      <Compile Include="Assets\Scripts\CameraFollowController.cs" />
+     <Compile Include="Assets\Scripts\TileGenerator.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/user/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

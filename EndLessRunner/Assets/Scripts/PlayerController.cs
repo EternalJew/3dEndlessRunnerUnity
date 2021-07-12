@@ -35,7 +35,10 @@ public class PlayerController : MonoBehaviour
         }
         if(SwipeController.swipeUp)
         {
-            Jump();
+            if(controller.isGrounded)
+            {
+                Jump();
+            }
         }
         Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
         if(lineToMove == 0)
