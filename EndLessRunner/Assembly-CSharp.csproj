@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\SwipeController.cs" />
+     <Compile Include="Assets\Scripts\CameraFollowController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/user/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -605,6 +606,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -614,6 +618,9 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Toolchain.Linux-x86_64">
+        <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -622,12 +629,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-        <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toolchain.Linux-x86_64">
-        <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
         <HintPath>/home/user/git/3dEndlessRunnerUnity/EndLessRunner/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
