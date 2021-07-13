@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2595405c0af2773ff8023de1362e5808, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 20
   jumpForce: 10
   gravity: -20
   lineDistance: 4
@@ -497,6 +497,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2094395490}
+  - component: {fileID: 2094395491}
   m_Layer: 0
   m_Name: TileGenerator
   m_TagString: Untagged
@@ -516,119 +517,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &7594962550336025797
-PrefabInstance:
+--- !u!114 &2094395491
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223716, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285673069125223736, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
-      propertyPath: m_Name
-      value: Ground_Tile_2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
---- !u!1001 &8299840180590414675
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319362, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299840178905319390, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
-      propertyPath: m_Name
-      value: Ground_Tile_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094395489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604fcb17ef1bc2968b78a2fcf3a2ec33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilePrefabs:
+  - {fileID: 8299840178905319390, guid: 0b5bcfd3e5fbf4c1d98fff33f32fd6c0, type: 3}
+  - {fileID: 1285673069125223736, guid: 4331c049027b3107bac48cb5caa0829e, type: 3}
+  player: {fileID: 773183652}
+  startTiles: 2
